@@ -1,0 +1,43 @@
+hash: 3d3a6495e6e993b04a46da984eccd9d8870149f6bbe5c633b0ccefe85c98609f
+updated: 2018-12-31T01:05:02.145783867+06:00
+imports:
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: 85b92cdf4bc9bf33fd6f199ff866a1eed3511c80
+  subpackages:
+  - binding
+  - internal/json
+  - render
+- name: github.com/golang/protobuf
+  version: 1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f
+  subpackages:
+  - proto
+- name: github.com/json-iterator/go
+  version: d05f387f50c0c406889b62cb5ec51c76a64d89ee
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+- name: github.com/ugorji/go
+  version: 772ced7fd4c2f6322c07537a9a93b68d74551fa6
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: b4a75ba826a64a70990f11a225237acd6ef35c9f
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/mgo.v2
+  version: 9856a29383ce1c59f308dd1cf0363a79b5bef6b5
+  subpackages:
+  - bson
+  - internal/json
+  - internal/sasl
+  - internal/scram
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []
